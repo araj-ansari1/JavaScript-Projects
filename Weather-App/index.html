@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="container">
+                <h1 class="head-title">
+                    <i
+                        class="fa-solid fa-cloud-sun"
+                        style="margin-right: 10px"
+                    ></i
+                    >Weather App
+                </h1>
+                <div class="input-box">
+                    <input
+                        type="text"
+                        id="input"
+                        placeholder="Enter Location name"
+                    />
+                    <button id="btn">Search</button>
+                </div>
+                <div class="icone">
+                    <img
+                        src="weather-app.png"
+                        id="image"
+                        alt="Image Loading...."
+                    />
+                </div>
+                <div class="location">
+                    <p id="para">Weather</p>
+                </div>
+                <div class="info-container">
+                    <div class="box" id="description">Description</div>
+                    <div class="box" id="temp">Temp</div>
+                    <div class="box" id="speed">Speed</div>
+                    <div class="box" id="clouds">Cloudes</div>
+                    <div class="box" id="humidity">Humidity</div>
+                    <div class="box" id="pressure">Pressure</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
