@@ -13,6 +13,8 @@ let countryEl = document.getElementById('country');
 let postCodeEl = document.getElementById('postcode');
 let coordinateEl = document.getElementById('coordinates');
 
+const btn = document.getElementById('btn');
+
 const refreshInfo = async () => {
     const respose = await fetch(`https://randomuser.me/api/`);
     let data = await respose.json();
@@ -35,6 +37,7 @@ const refreshInfo = async () => {
 
     image.src = `${result.picture.large}`;
 }
-refreshInfo();
+
+btn.addEventListener('click',refreshInfo);
 
 // console.log(refreshInfo());
