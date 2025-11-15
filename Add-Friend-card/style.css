@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#card {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 0.7rem;
+    /* margin-top: 3rem; */
+    padding: 30px;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+#card img {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem;
+}
+
+
+#card h1 {
+    font-size: 25px;
+    margin: 15px 0;
+    font-weight: 900;
+}
+
+#card h5 {
+    font-size: 25px;
+    color: red;
+    margin: 10px 0;
+}
+
+#card button {
+    background-color: cadetblue;
+    color: white;
+    font-weight: 700;
+    /* padding: 10px 20px; */
+    height: 35px;
+    width: 130px;
+    border-radius: 8px;
+    border-style: none;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#card #remove {
+    background-color: #dadada;
+    color: #111;
+}
