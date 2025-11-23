@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    /* background-color: #111; */
+}
+
+#contant-box {
+    height: 100%;
+    width: 100%;
+    font-style: italic;
+    margin-top: 4rem;
+    position: relative;
+
+}
+
+#contant-box h1 {
+    padding: 1rem;
+    font-size: 3.5rem;
+}
+
+#contant-box p {
+    padding: 2rem 12rem;
+}
+
+#contant-box .contant-btn {
+    padding: 0.8rem 2rem;
+    margin-top: 1.2rem;
+    /* background-color: skyblue; */
+    background-color: rgba(0, 0, 0, 0.3);
+    /* color: black; */
+    font-size: 20px;
+    border-style: none;
+    border-radius: 7px;
+
+}
+
+/* Card Box  */
+
+#card-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 5rem;
+}
+
+#card {
+    height: 500px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(240, 248, 255, 0.355);
+    box-shadow: 1.5px 2px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+#card img {
+    height: 330px;
+    width: 280px;
+    object-fit: cover;
+    object-position: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+
+}
+
+#contant-card {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+#contant-card h1 {
+    font-size: 2.5rem;
+    font-family: Arial;
+    font-weight: 700;
+}
+
+#contant-card h4 {
+    font-size: 2rem;
+}
+
+#contant-card span {
+    font-weight: 500;
+    font-size: 22px;
+    padding-left: 0.5rem;
+    font-family: Arial;
+
+}
+
+#contant-card button {
+    padding: 0.7rem 2.5rem;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: all 0.5s ease-in-out;
+}
+
+#contant-card button:hover {
+    background-color: orange;
+}
+
+/* Option Box  */
+#option-box {
+    padding: 0.6rem 1.5rem;
+    border-style: none;
+    border-radius: 13px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: orange;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 5%;
+    right: 3%;
+}
+
+#option-box option {
+    /* padding: 2rem; */
+    color: black;
+
+}
+
+#option-box #theam {
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
