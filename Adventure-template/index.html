@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
+            .box {
+                height: 200px;
+                width: 200px;
+                background: linear-gradient(
+                    to right,
+                    black,
+                    red,
+                    yellow,
+                    green,
+                    blue,
+                    violet
+                );
+                border: 2px solid black;
+            }
+            .box:hover {
+                height: 200px;
+                width: 200px;
+                background: linear-gradient(
+                    to top,
+                    black,
+                    red,
+                    yellow,
+                    green,
+                    blue,
+                    violet
+                );
+                border: 2px solid black;
+                box-shadow: 0 0 20px red, 0 0 60px yellow, 0 0 80px green,
+                    0 0 100px blue, 0 0 120px rgb(251, 62, 251);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box"></div>
+        </div>
+    </body>
+</html>
