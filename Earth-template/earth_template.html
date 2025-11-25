@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>EARTH01TEMPLATE</title>
+        <link rel="stylesheet" href="./assets/Bootstrap/CSS/bootstrap.css" />
+        <style class="letter-spacing-text">
+            /* custom Bootstrap-like letter spacing utilities */
+            .ls-1 {
+                letter-spacing: 1px;
+            }
+            .ls-2 {
+                letter-spacing: 2px;
+            }
+            .ls-3 {
+                letter-spacing: 3px;
+            }
+            .ls-4 {
+                letter-spacing: 4px;
+            }
+            .ls-5 {
+                letter-spacing: 10px;
+            }
+        </style>
+        <style class="first-section-style">
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .font-size-increase {
+                font-size: 70px;
+            }
+            .first-section {
+                width: 100%;
+                background-image: url('./Hero-image-01.jpg');
+                /* height: 100vh; */
+                background-size: cover;
+                background-position: center;
+                position: relative;
+            }
+            .first-section > * {
+                position: relative;
+                z-index: 2;
+            }
+            .first-section::after {
+                content: '';
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+            .bg-color-rgba {
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+            .display-bock {
+                padding-block: 8rem;
+            }
+            .earth-font-size {
+                font-size: 5rem;
+                letter-spacing: 1rem;
+                text-transform: uppercase;
+                color: #2c541d;
+                font-weight: 700;
+            }
+            .endless-font-size {
+                font-size: 2.8rem;
+                letter-spacing: 0.3rem;
+                color: lightcyan;
+                text-transform: uppercase;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .btn-style {
+                padding: 0.6rem 3rem;
+                background-color: #74a84a;
+                margin-top: 1rem;
+                text-transform: uppercase;
+                border-style: none;
+                letter-spacing: 3px;
+                color: white;
+            }
+            .padding-content {
+                padding: 12.2rem 0rem;
+            }
+        </style>
+        <style class="second-section-style">
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .card-hover {
+                transition: box-shadow 0.4s ease-in-out;
+            }
+            .card-hover:hover {
+                /* box-shadow: 10px 10px 5px 5px black; */
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                transition: box-shadow 0.4s ease-in-out;
+            }
+            .border-style-none {
+                border-style: none;
+            }
+        </style>
+        <style>
+            .earth-image {
+                height: 450px;
+                width: 600px;
+                background-image: url('earth-image-01.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="first-section">
+            <header class="header-bar">
+                <div class="container-fluid bg-color-rgba">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid col-10 p-2 text-uppercase">
+                            <a
+                                class="navbar-brand fs-3 fw-semibold text-white ls-5 px-5"
+                                href="#"
+                                >Earth</a
+                            >
+                            <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav"
+                                aria-controls="navbarNav"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div
+                                class="collapse navbar-collapse py-0"
+                                id="navbarNav"
+                            >
+                                <ul
+                                    class="navbar-nav ms-auto d-flex justify-content-center align-items-center"
+                                >
+                                    <li class="nav-item px-2">
+                                        <a
+                                            class="nav-link active text-white"
+                                            aria-current="page"
+                                            href="#"
+                                            >Home</a
+                                        >
+                                    </li>
+                                    <li class="nav-item px-2">
+                                        <a
+                                            class="nav-link active text-white"
+                                            aria-current="page"
+                                            href="#"
+                                            >About</a
+                                        >
+                                    </li>
+                                    <li class="nav-item px-2">
+                                        <a
+                                            class="nav-link active text-white"
+                                            aria-current="page"
+                                            href="#"
+                                            >Services</a
+                                        >
+                                    </li>
+                                    <li class="nav-item px-2">
+                                        <a
+                                            class="nav-link active text-white"
+                                            aria-current="page"
+                                            href="#"
+                                            >Contact</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div
+                class="container-fluid padding-content d-flex justify-content-center align-items-center flex-column display-bock"
+            >
+                <h1 class="earth-font-size ls-5">Earth</h1>
+                <h2 class="endless-font-size">Endless Potential</h2>
+                <button class="btn-style">Explore</button>
+            </div>
+        </section>
+        <section class="second-section">
+            <div class="container-fluid">
+                <div
+                    class="row d-flex align-items-center justify-content-center p-5"
+                >
+                    <div class="col-lg-3 card-hover m-3">
+                        <div class="card border-style-none bg-light">
+                            <img
+                                src="disiginng-image-01.jpg"
+                                class="card-img-top"
+                                alt="..."
+                                height="360px"
+                                width="220px"
+                            />
+                            <div class="card-body p-4">
+                                <h5 class="card-title fs-3 fw-semibold">
+                                    Web Design
+                                </h5>
+                                <p class="card-text">
+                                    Custom web design for small businesses, we
+                                    help you capture new audiences and increase
+                                    your sales.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 card-hover m-3">
+                        <div class="card border-style-none bg-light">
+                            <img
+                                src="disiginng-image-01.jpg"
+                                class="card-img-top"
+                                alt="..."
+                                height="360px"
+                                width="220"
+                            />
+                            <div class="card-body p-4">
+                                <h5 class="card-title fs-3 fw-semibold">
+                                    Graphic Design
+                                </h5>
+                                <p class="card-text">
+                                    Logos, merchandise and more. Anyone can
+                                    create nice graphics. We think it’s better
+                                    to create memorable ones.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 card-hover m-3">
+                        <div class="card border-style-none bg-light">
+                            <img
+                                src="disiginng-image-01.jpg"
+                                class="card-img-top"
+                                alt="..."
+                                height="360px"
+                            />
+                            <div class="card-body p-4 border-none">
+                                <h5 class="card-title fs-3 fw-semibold">
+                                    Content Creation
+                                </h5>
+                                <p class="card-text">
+                                    Want to attract people to your website? You
+                                    have to have the best content in the world.
+                                    That’s what we do.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="third-section">
+            <div class="container-fluid">
+                <div
+                    class="row d-flex align-items-center justify-content-center"
+                >
+                    <div class="col-lg-5">
+                        <h2 class="fs-1 fw-bold">About us</h2>
+                        <p class="pe-4">
+                            I made it so it is super easy to update and so that
+                            it flows perfectly with my tutorials. Lots of love
+                            and hundreds of hours went into making it. I hope
+                            you love it as much as I do. I wish you the best of
+                            luck with your business, enjoy the adventure.
+                        </p>
+                    </div>
+                    <div class="col-lg-5 earth-image">
+                        <!-- <img src="earth-image-01.jpg" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .img-col-section {
+                background-image: url('./Call-to-action.jpg');
+                background-position: center;
+                background-size: cover;
+                padding: 10rem;
+            }
+        </style>
+        <section class="fourth-section">
+            <div class="container-fluid img-col-section">
+                <div class="row">
+                    <div class="col text-center">
+                        <h1 class="text-uppercase">Talk to us</h1>
+                        <p>
+                            Have any questions? We are always open to talk about
+                            your business, new projects, <br />
+                            creative opportunities and how we can help you.
+                        </p>
+                        <button
+                            class=" py-2 px-5 text-uppercase text-white"
+                            style="
+                                letter-spacing: 1px;
+                                border-style: none;
+                                background-color: #74a84a;
+                            "
+                        >
+                            Get in touch
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-section">
+            <footer>
+                <div class="container-fluid">
+                    <div class="row pt-3">
+                        <div class="col-lg-4">
+                            <ul
+                                class="d-flex align-items-center justify-content-center"
+                            >
+                                <li class="px-3 list-unstyled">
+                                    <a
+                                        class="text-decoration-none text-black"
+                                        href="#"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="px-3 list-unstyled">
+                                    <a
+                                        class="text-decoration-none text-black"
+                                        href="#"
+                                        >About</a
+                                    >
+                                </li>
+                                <li class="px-3 list-unstyled">
+                                    <a
+                                        class="text-decoration-none text-black"
+                                        href="#"
+                                        >Services</a
+                                    >
+                                </li>
+                                <li class="px-3 list-unstyled">
+                                    <a
+                                        class="text-decoration-none text-black"
+                                        href="#"
+                                        >Contect</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4
+                                class="text-uppercase text-center"
+                                style="letter-spacing: 1px"
+                            >
+                                Earth
+                            </h4>
+                        </div>
+                        <div class="col-lg-4">
+                            <p class="text-center">©2022 Earth. All right reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </body>
+    <script src="./assets/Bootstrap/JS/bootstrap.js"></script>
+</html>
