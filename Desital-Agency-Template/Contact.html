@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact</title>
+        <link rel="stylesheet" href="./assets/Bootstrap/CSS/bootstrap.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .btn-request-quote {
+                padding: 0.5rem 2rem;
+                background-color: #6878d6;
+                color: white;
+                border-style: none;
+                border-radius: 0.5rem;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+            .first-section {
+                background-image: url('./about-bg-img.jpg');
+                background-position: center;
+                background-size: cover;
+                background-attachment: fixed;
+                position: relative;
+            }
+            .first-section > * {
+                z-index: 2;
+                position: relative;
+            }
+            .first-section::after {
+                content: '';
+                height: 100%;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            .container-content {
+                padding: 9.5rem 0;
+            }
+            .padding-row-about {
+                padding: 6rem 0;
+            }
+            .spam-box-card {
+                border-bottom: 5px solid #6878d6;
+                padding: 0 2rem;
+            }
+            .first-absolute {
+                position: absolute;
+                top: 85%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            /* Second section  */
+            .btn-book-meeting-01 {
+                padding: 0.8rem 2rem;
+                border-style: none;
+                border-radius: 0.5rem;
+                background-color: #6878d6;
+                color: white;
+                letter-spacing: 1px;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="first-section">
+            <div class="conntainer-fluid">
+                <header class="px-5">
+                    <nav class="navbar navbar-expand-lg px-5">
+                        <div class="container-fluid">
+                            <img
+                                src="./site-logo-white.svg"
+                                alt=""
+                                height="50px"
+                            />
+                            <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div
+                                class="collapse navbar-collapse"
+                                id="navbarSupportedContent"
+                            >
+                                <ul
+                                    class="navbar-nav ms-auto mb-2 mb-lg-0 px-5 py-4"
+                                >
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active px-4 text-uppercase text-white"
+                                            aria-current="page"
+                                            href="main.html"
+                                            >Home</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active px-4 text-uppercase text-white"
+                                            aria-current="page"
+                                            href="About.html"
+                                            >About</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active px-4 text-uppercase text-white"
+                                            aria-current="page"
+                                            href="Services.html"
+                                            >Sevices</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active px-4 text-uppercase text-white"
+                                            aria-current="page"
+                                            href="Contact.html"
+                                            >Contact</a
+                                        >
+                                    </li>
+                                    <button class="btn-request-quote">
+                                        Request Quote
+                                    </button>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+            <div class="container">
+                <div
+                    class="row padding-row-about d-flex align-items-center justify-content-center"
+                >
+                    <div class="col-lg-6 text-center">
+                        <h1
+                            class="text-white fw-bold p-3"
+                            style="font-size: 4rem"
+                        >
+                            Contact Us
+                        </h1>
+                        <h3 class="text-white fw-bold p-2">
+                            Contact for Premium Business Services
+                        </h3>
+                        <p class="text-white">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit. Suspendisse et justo. Praesent mattis commodo
+                            augue. Aliquam ornare hendrerit augue.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="second-section">
+            <div class="container">
+                <div
+                    class="row d-flex align-items-center justify-content-center"
+                >
+                    <div class="col-lg-6 text-center p-5">
+                        <h1 class="fw-bold pt-5" style="color: #242a56">
+                            How can we help you?
+                        </h1>
+                        <p class="p-4">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit. Suspendisse et justo. Praesent mattis commodo
+                            augue.​
+                        </p>
+                        <button class="btn-book-meeting-01 text-uppercase">
+                            Book Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .input-name {
+                border-style: none;
+                background-color: #fafafa;
+                border: 1px solid rgba(0, 0, 0, 0.09);
+                padding: 0.5rem 0.5rem;
+            }
+            .input-email {
+                border-style: none;
+                background-color: #fafafa;
+                border: 1px solid rgba(0, 0, 0, 0.09);
+                padding: 0.5rem 0.5rem;
+            }
+
+            .input-textarea {
+                border-style: none;
+                background-color: #fafafa;
+                border: 1px solid rgba(0, 0, 0, 0.09);
+                padding: 0.5rem 0.5rem;
+            }
+            .submit-button {
+                padding: 0.8rem 3.5rem;
+                border-style: none;
+                background-color: #6878d6;
+                color: white;
+                border-radius: 0.5rem;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+        </style>
+        <section class="second-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 py-4">
+                        <h2 class="fw-bold pt-5">Request Free Consultation</h2>
+                        <form
+                            action=""
+                            class="d-flex flex-column gap-4 py-5 px-4"
+                        >
+                            <input
+                                class="input-name"
+                                type="text"
+                                placeholder="Enter your name* "
+                            />
+                            <input
+                                class="input-email"
+                                type="text"
+                                placeholder="Enter your email*"
+                            />
+                            <textarea
+                                class="input-textarea pb-5"
+                                name=""
+                                id=""
+                                placeholder="Your message*"
+                            ></textarea>
+                            <div>
+                                <button class="submit-button">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4" style="padding: 7rem 0 1.5rem 0">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.1250136516414!2d81.03361717489345!3d26.86776896202153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be260d745ccdd%3A0xd0769fa0a02c20f2!2sEldeco%20Tiraha%2C%20Ganga%20Vihar%2C%20Gomti%20Nagar%2C%20Lucknow%2C%20Uttar%20Pradesh%20226028!5e0!3m2!1sen!2sin!4v1760646335360!5m2!1sen!2sin"
+                            width="100%"
+                            height="100%"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                    <div class="col-lg-4 py-3 px-5">
+                        <h2 class="fw-bold pt-5">Get In Touch</h2>
+                        <span class="fs-4 fw-semibold ps-2 pt-5">Reach Us</span>
+                        <div class="ps-4 pe-2 py-2">
+                            <p>
+                                <i
+                                    class="fs-4 pe-4 fa-solid fa-location-dot"
+                                ></i>
+                                123/B, Route 66, Downtown, Washington, DC 20004,
+                                US​
+                            </p>
+                            <p>
+                                <i class="fs-4 pe-4 fa-regular fa-envelope"></i>
+                                info@example.com
+                            </p>
+                            <p>
+                                <i
+                                    class="fs-4 pe-4 fa-solid fa-phone-volume"
+                                ></i>
+                                >+001 987-654-3210
+                            </p>
+                            <p>
+                                <i
+                                    class="fs-4 pe-4 fa-solid fa-mobile-button"
+                                ></i
+                                >+001 987-654-3210
+                            </p>
+                        </div>
+                        <div class="p-4">
+                            <span class="fw-bold">Call us Toll Free</span>
+                            <h1>
+                                <a href="" class="text-decoration-none"
+                                    >1-800-1234-567</a
+                                >
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="./assets/Bootstrap/JS/bootstrap.js"></script>
+    </body>
+</html>
